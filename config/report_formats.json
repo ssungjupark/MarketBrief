@@ -1,0 +1,141 @@
+{
+  "modes": {
+    "KR": {
+      "description": "Korean market close summary focused on domestic indices, Asia peers, local bond context, FX, and investor flow trends.",
+      "summary_sections": [
+        {
+          "title": "국내 증시",
+          "category": "indices_domestic",
+          "items": [
+            "KOSPI",
+            "KOSDAQ"
+          ]
+        },
+        {
+          "title": "해외 증시",
+          "category": "indices_overseas",
+          "items": [
+            "Nikkei 225",
+            "Hang Seng",
+            "Shanghai Composite"
+          ]
+        },
+        {
+          "title": "변동성",
+          "category": "volatility",
+          "items": [
+            "VKOSPI",
+            "VIX"
+          ]
+        },
+        {
+          "title": "채권",
+          "category": "treasuries",
+          "items": [
+            "Japan 10Y Treasury",
+            "Korea 10Y Treasury"
+          ]
+        },
+        {
+          "title": "환율",
+          "category": "macro_context",
+          "items": [
+            "DXY",
+            "USD/KRW",
+            "JPY/KRW",
+            "WTI"
+          ]
+        },
+        {
+          "title": "수급",
+          "category": "domestic_flow",
+          "items": [
+            "외국인 KOSPI 현물",
+            "기관 KOSPI 현물",
+            "외국인 KOSDAQ 현물",
+            "기관 KOSDAQ 현물"
+          ]
+        },
+        {
+          "title": "업종별 수급",
+          "category": "sector_flow",
+          "items": [
+            "업종별 수급",
+            "외국인 순매수*",
+            "외국인 순매도*",
+            "기관 순매수*",
+            "기관 순매도*"
+          ]
+        }
+      ],
+      "screenshot_targets": [
+        "kospi",
+        "kosdaq"
+      ]
+    },
+    "US": {
+      "description": "US market close summary focused on US and European indices, commodities, crypto, and broad risk assets.",
+      "summary_sections": [
+        {
+          "title": "해외 증시",
+          "category": "indices_overseas",
+          "items": [
+            "S&P 500",
+            "Nasdaq",
+            "Euro Stoxx 50",
+            "SOX",
+            "Russell 2000"
+          ]
+        },
+        {
+          "title": "변동성",
+          "category": "volatility",
+          "items": [
+            "VIX",
+            "MOVE"
+          ]
+        },
+        {
+          "title": "미국 국채",
+          "category": "treasuries",
+          "items": [
+            "US 2Y Treasury",
+            "US 10Y Treasury",
+            "US 30Y Treasury",
+            "US 10Y-2Y Spread"
+          ]
+        },
+        {
+          "title": "원자재",
+          "category": "commodities",
+          "items": [
+            "WTI",
+            "Gold",
+            "Silver",
+            "Copper"
+          ]
+        },
+        {
+          "title": "달러 및 환율",
+          "category": "macro_context",
+          "items": [
+            "DXY",
+            "USD/KRW",
+            "JPY/KRW"
+          ]
+        },
+        {
+          "title": "암호화폐",
+          "category": "crypto",
+          "items": [
+            "Bitcoin",
+            "Ethereum"
+          ]
+        }
+      ],
+      "screenshot_targets": [
+        "finviz"
+      ]
+    }
+  }
+}
