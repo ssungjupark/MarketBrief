@@ -1,0 +1,123 @@
+{
+  "events": [
+    {
+      "date": "2026-09-02",
+      "title": "Broadcom 실적 발표",
+      "source": "Broadcom Investor Relations",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial",
+      "priority": 90
+    },
+    {
+      "date": "2026-09-03",
+      "title": "미국 ISM 서비스업 PMI",
+      "source": "ISM",
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "priority": 90
+    },
+    {
+      "date": "2026-09-10",
+      "title": "ECB 통화정책 결정",
+      "source": "European Central Bank",
+      "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "priority": 90
+    },
+    {
+      "date": "2026-09-16",
+      "title": "FOMC 금리 결정",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "priority": 100
+    },
+    {
+      "date": "2026-09-18",
+      "title": "BOJ 통화정책 결정",
+      "source": "Bank of Japan",
+      "source_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+      "priority": 90
+    },
+    {
+      "date": "2026-09-30",
+      "title": "미국 PCE 물가",
+      "source": "U.S. Bureau of Economic Analysis",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "priority": 100
+    },
+    {
+      "date": "2026-10-01",
+      "title": "미국 ISM 제조업 PMI",
+      "source": "ISM",
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "priority": 90
+    },
+    {
+      "date": "2026-10-05",
+      "title": "미국 ISM 서비스업 PMI",
+      "source": "ISM",
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "priority": 90
+    },
+    {
+      "date": "2026-10-22",
+      "title": "한국은행 금융통화위원회",
+      "source": "Bank of Korea",
+      "source_url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400020",
+      "priority": 90
+    },
+    {
+      "date": "2026-10-28",
+      "title": "FOMC 금리 결정",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "priority": 100
+    },
+    {
+      "date": "2026-10-29",
+      "title": "ECB 통화정책 결정",
+      "source": "European Central Bank",
+      "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "priority": 90
+    },
+    {
+      "date": "2026-10-29",
+      "title": "미국 PCE 물가",
+      "source": "U.S. Bureau of Economic Analysis",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "priority": 100
+    },
+    {
+      "date": "2026-10-30",
+      "title": "BOJ 통화정책 결정",
+      "source": "Bank of Japan",
+      "source_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+      "priority": 90
+    },
+    {
+      "date": "2026-11-25",
+      "title": "미국 PCE 물가",
+      "source": "U.S. Bureau of Economic Analysis",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "priority": 100
+    },
+    {
+      "date": "2026-12-09",
+      "title": "FOMC 금리 결정",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "priority": 100
+    },
+    {
+      "date": "2026-12-17",
+      "title": "ECB 통화정책 결정",
+      "source": "European Central Bank",
+      "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "priority": 90
+    },
+    {
+      "date": "2026-12-18",
+      "title": "BOJ 통화정책 결정",
+      "source": "Bank of Japan",
+      "source_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+      "priority": 90
+    }
+  ]
+}
