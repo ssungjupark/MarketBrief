@@ -1,0 +1,28 @@
+[project]
+name = "macro-pulse"
+version = "0.1.0"
+description = "Daily macro market report bot with HTML output and Telegram delivery"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jinja2>=3.1.6",
+    "matplotlib>=3.10.8",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "python-telegram-bot>=22.6",
+    "selenium>=4.28.1",
+    "webdriver-manager>=4.0.2",
+    "yfinance>=0.2.54",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
