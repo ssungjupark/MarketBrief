@@ -1,0 +1,23 @@
+services:
+  - type: cron
+    name: marketbrief-close
+    runtime: docker
+    region: singapore
+    schedule: '30 7,21 * * 1-5'
+    dockerfilePath: ./Dockerfile
+    dockerCommand: uv run --frozen python src/main.py --market AUTO
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: KRX_ID
+        sync: false
+      - key: KRX_PW
+        sync: false
+      - key: REQUIRE_KRX_DATA
+        value: "true"
+      - key: REPORT_FORMAT_CONFIG
+        value: config/report_formats.json
