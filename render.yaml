@@ -5,7 +5,7 @@ services:
     region: singapore
     schedule: '30 7,21 * * 1-5'
     dockerfilePath: ./Dockerfile
-    dockerCommand: uv run --frozen python src/main.py --market AUTO
+    dockerCommand: uv run --frozen python src/render_main.py
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         sync: false
@@ -16,6 +16,6 @@ services:
       - key: KRX_PW
         sync: false
       - key: REQUIRE_KRX_DATA
-        value: "false"
+        value: "true"
       - key: REPORT_FORMAT_CONFIG
         value: config/report_formats.json
