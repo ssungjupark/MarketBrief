@@ -16,6 +16,6 @@ services:
       - key: KRX_PW
         sync: false
       - key: REQUIRE_KRX_DATA
-        value: "true"
+        value: "false"
       - key: REPORT_FORMAT_CONFIG
         value: config/report_formats.json
