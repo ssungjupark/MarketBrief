@@ -29,4 +29,4 @@ RUN uv sync --frozen --all-groups --no-install-project
 
 COPY . .
 
-CMD ["uv", "run", "--frozen", "python", "src/main.py", "--market", "AUTO"]
+CMD ["uv", "run", "--frozen", "python", "src/render_main.py"]
