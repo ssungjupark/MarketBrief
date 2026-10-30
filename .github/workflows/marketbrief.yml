@@ -155,3 +155,5 @@ jobs:
             marketbrief.log
             macro_pulse_report.html
           if-no-files-found: ignore
+
+# bootstrap trigger 2026-10-30
